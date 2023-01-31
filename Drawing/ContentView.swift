@@ -51,6 +51,10 @@ struct ContentView: View {
                         Text("Drawing Group")
                     }
                     .padding(.bottom)
+                    
+                    NavigationLink(destination: Arrow()) {
+                        Text("Challange Arrow")
+                    }.padding(.bottom)
             }
         }
     }
